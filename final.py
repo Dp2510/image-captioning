@@ -5,6 +5,10 @@ import tensorflow as tf
 from PIL import Image
 from gtts import gTTS
 import matplotlib.pyplot as plt
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # force CPU, skip GPU init
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"   # quieter TF logs
+
 
 # =====================
 # Model definitions
