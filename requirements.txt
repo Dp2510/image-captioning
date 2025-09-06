@@ -1,8 +1,8 @@
-streamlit
-tensorflow
-pillow
-gtts
-numpy
-matplotlib
-opencv-python
-ipython
+streamlit>=1.32
+tensorflow>=2.10,<2.16
+pillow>=9.5
+numpy>=1.23
+matplotlib>=3.7
+gTTS>=2.5
+h5py>=3.8
+opencv-python>=4.7
